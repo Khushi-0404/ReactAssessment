@@ -14,7 +14,7 @@ const SortRating=(props)=>{
     useEffect(()=>{
         console.log("inside use effect")
         const temp=[...product]
-        const sorteddata=temp.sort((a,b)=>(a.price)-(b.price))
+        const sorteddata=temp.sort((a,b)=>(a.Rating)-(b.Rating))
         setResult(sorteddata)
         },[result])
 return(
