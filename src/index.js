@@ -1,20 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Provider } from 'react-redux';
-import App from './22 Aug Assessment/App'
-import store from './store';
-import {fetchMovies} from'./userSliceCustomer'
-import { fetchMoviesAdmin } from './userSliceAdmin';
-store.dispatch(fetchMovies())
-
-store.dispatch(fetchMoviesAdmin())
-
+import App from './29August Assessment/App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <Provider store={store}>
-    <App />
-    </Provider>
+<App></App>
 );
 
 

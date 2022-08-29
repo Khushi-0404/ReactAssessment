@@ -1,0 +1,15 @@
+.user{
+    margin-left: 40%;
+    height:40%
+}
+.user:hover,.admin:hover{
+    transform: scale(1.5);
+}
+.admin{
+    height: 40%;
+}
+    
+.option{
+    background-color: bisque;
+    text-align: center;
+}
